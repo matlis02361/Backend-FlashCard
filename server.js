@@ -14,12 +14,12 @@ const db = new Low(adapter);
 const app = express();
 const port = 5889;
 
-const staticDirectory = path.join(__dirname, './public');
+const staticDirectory = path.join(__dirname, './data');
 app.use(express.static(staticDirectory));
 
 const storage = multer.diskStorage({
 	destination: (req, file, cb) => {
-		cb(null, 'public/uploadedFiles/');
+		cb(null, 'data/uploadedFiles/');
 	},
 	filename: (req, file, cb) => {
 		cb(null, file.originalname);
