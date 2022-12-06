@@ -1,3 +1,11 @@
 {
-  "fileItems": []
+  "fileItems": [
+    {
+      "title": "re",
+      "description": "ere",
+      "notes": "rer",
+      "fileName": "tlumaczenia.xlsx",
+      "iconPathAndFileName": "uploadedFiles/general/iconExcel.png"
+    }
+  ]
 }
