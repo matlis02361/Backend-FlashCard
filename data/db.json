@@ -1,32 +1,3 @@
 {
-  "fileItems": [
-    {
-      "title": "re",
-      "description": "ere",
-      "notes": "rer",
-      "fileName": "tlumaczenia.xlsx",
-      "iconPathAndFileName": "uploadedFiles/general/iconExcel.png"
-    },
-    {
-      "title": "1",
-      "description": "212132",
-      "notes": "1221",
-      "fileName": "translations.xlsx",
-      "iconPathAndFileName": "uploadedFiles/general/iconExcel.png"
-    },
-    {
-      "title": "656",
-      "description": "56",
-      "notes": "56",
-      "fileName": "tlumaczenia (1).xlsx",
-      "iconPathAndFileName": "uploadedFiles/general/iconExcel.png"
-    },
-    {
-      "title": "56",
-      "description": "56",
-      "notes": "56",
-      "fileName": "translations.xlsx",
-      "iconPathAndFileName": "uploadedFiles/general/iconExcel.png"
-    }
-  ]
+  "fileItems": []
 }

@@ -1,7 +1,7 @@
 import Excel from "exceljs";
 
 export const translationFilePathAndFileName =
-  "./data/uploadedFiles/translations.xlsx";
+  "../data/uploadedFiles/translations.xlsx";
 
 export const getTranslations = async () => {
   const wb = new Excel.Workbook();

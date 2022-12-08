@@ -3,10 +3,11 @@ import fs from 'fs';
 
 console.log('importing translations...');
 
-(async () => {
+export const convert = (async () => {
 	const translations = await tools.getTranslations();
 
-	fs.writeFile('./src/data/translations.json', JSON.stringify(translations), () => {
+	fs.writeFile('../data/translations.json', JSON.stringify(translations), () => {
 		console.log('finished')
 	});
 })();
+
