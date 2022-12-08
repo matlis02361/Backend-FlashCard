@@ -1,9 +1,6 @@
 import express from "express";
 import cors from "cors";
 import multer from "multer";
-import { join, dirname } from "path";
-import path from "path";
-import { fileURLToPath } from "url";
 
 
 const app = express();
